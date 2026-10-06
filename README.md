@@ -84,16 +84,6 @@ install.packages("lme4")
 
 `Rscript` must be available on the system path because mixed-effects models are fitted through R/lme4.
 
-## Project root
-
-The code is portable and does not require the original server path. Set the project root with the environment variable `DEPRESSION_PROJECT_ROOT`:
-
-```bash
-export DEPRESSION_PROJECT_ROOT=/path/to/project
-```
-
-If the variable is not set, the repository root is used. Output directories are created under `output/` unless `--outdir` is supplied explicitly.
-
 ## Running the primary analysis
 
 Run each cohort separately. For example:
